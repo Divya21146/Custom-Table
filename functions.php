@@ -3,7 +3,7 @@
 function custom_table() {
     global $wpdb;
  
- $table_name = $wpdb->prefix."user_data"; //change the "user_data" to your table name
+ $table_name = $wpdb->prefix."your_table_name"; //change the "user_data" to your table name
 
  $charset_collate = $wpdb->get_charset_collate();
 
